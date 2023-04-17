@@ -37,6 +37,10 @@ nav h4 {
     width: 50%;
 }
 
+.jumbotron .col-md-6 {
+    margin: auto;
+}
+
 
 .portfolio h3,
 .contact h3 {
@@ -56,6 +60,41 @@ nav h4 {
     text-align: left;
 }
 
+.about button {
+    background-color: aqua;
+    margin-bottom: 2rem;
+    color: white;
+    border: 2px solid white;
+}
+
+.form-contact {
+    padding: 1rem 3rem;
+}
+
+.form-control,
+textarea {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+}
+
+.form-contact button {
+    background-color: aqua;
+    margin-top: 1rem;
+    color: white;
+}
+
+footer {
+    background-color: rgb(79, 113, 152);
+    text-align: center;
+    color: white;
+}
+
+.fa-brands {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 13px;
+}
 
 
 /* QUERY */
@@ -67,3 +106,9 @@ nav h4 {
 }
 
 @media (min-width: 992px) {}
+
+
+/* debug */
+.container {
+    border: 1px solid;
+}
