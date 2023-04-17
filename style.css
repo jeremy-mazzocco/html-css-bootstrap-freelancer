@@ -1,35 +1,69 @@
 /* OVERWRITE BOOTSTRAP */
 
+nav {
+    min-height: 100px;
+    background-color: rgb(44, 44, 79);
+}
+
+nav .col-5 {
+    background-color: rgb(44, 44, 79);
+}
+
 nav h4 {
     color: white;
     font-size: 1rem;
     font-weight: bold;
+    line-height: 100px;
 }
 
+.jumbotron,
+.about {
+    background-color: aquamarine;
+}
+
+.jumbotron h2,
+.about h3 {
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+.jumbotron h5 {
+    color: white;
+    padding: 1rem 0;
+}
+
+.jumbotron img {
+    width: 50%;
+}
+
+
+.portfolio h3,
+.contact h3 {
+    color: black;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.portfolio img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about p {
+    color: white;
+    padding: 1rem 5rem;
+    text-align: left;
+}
 
 
 
 /* QUERY */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .about p {
+        color: white;
+        padding: 1rem 2rem 2rem 4rem;
+    }
+}
 
 @media (min-width: 992px) {}
-
-
-
-/* DEBUG */
-[class*="col"] {
-    background-color: blue;
-    border: 1px solid;
-    height: 100px;
-}
-
-nav {
-    min-height: 70px;
-    background-color: rgb(5, 6, 116);
-
-}
-
-.jumbotron {
-    min-height: 300px;
-    background-color: aquamarine;
-}
